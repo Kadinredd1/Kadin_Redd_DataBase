@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72733E5D24E9E37F004A56EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72733E5C24E9E37F004A56EF /* AppDelegate.swift */; };
+		72733E5F24E9E37F004A56EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72733E5E24E9E37F004A56EF /* SceneDelegate.swift */; };
+		72733E6124E9E37F004A56EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72733E6024E9E37F004A56EF /* ViewController.swift */; };
+		72733E6424E9E37F004A56EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72733E6224E9E37F004A56EF /* Main.storyboard */; };
+		72733E6724E9E37F004A56EF /* KadinDBapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72733E6524E9E37F004A56EF /* KadinDBapp.xcdatamodeld */; };
+		72733E6924E9E381004A56EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72733E6824E9E381004A56EF /* Assets.xcassets */; };
+		72733E6C24E9E381004A56EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72733E6A24E9E381004A56EF /* LaunchScreen.storyboard */; };
+		72733E7724E9E381004A56EF /* KadinDBappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72733E7624E9E381004A56EF /* KadinDBappTests.swift */; };
+		72733E8224E9E381004A56EF /* KadinDBappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72733E8124E9E381004A56EF /* KadinDBappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72733E7324E9E381004A56EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72733E5124E9E37F004A56EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72733E5824E9E37F004A56EF;
+			remoteInfo = KadinDBapp;
+		};
+		72733E7E24E9E381004A56EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72733E5124E9E37F004A56EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72733E5824E9E37F004A56EF;
+			remoteInfo = KadinDBapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72733E5924E9E37F004A56EF /* KadinDBapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KadinDBapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72733E5C24E9E37F004A56EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72733E5E24E9E37F004A56EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		72733E6024E9E37F004A56EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72733E6324E9E37F004A56EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72733E6624E9E37F004A56EF /* KadinDBapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KadinDBapp.xcdatamodel; sourceTree = "<group>"; };
+		72733E6824E9E381004A56EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72733E6B24E9E381004A56EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72733E6D24E9E381004A56EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72733E7224E9E381004A56EF /* KadinDBappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KadinDBappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72733E7624E9E381004A56EF /* KadinDBappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KadinDBappTests.swift; sourceTree = "<group>"; };
+		72733E7824E9E381004A56EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72733E7D24E9E381004A56EF /* KadinDBappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KadinDBappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72733E8124E9E381004A56EF /* KadinDBappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KadinDBappUITests.swift; sourceTree = "<group>"; };
+		72733E8324E9E381004A56EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72733E5624E9E37F004A56EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72733E6F24E9E381004A56EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72733E7A24E9E381004A56EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72733E5024E9E37F004A56EF = {
+			isa = PBXGroup;
+			children = (
+				72733E5B24E9E37F004A56EF /* KadinDBapp */,
+				72733E7524E9E381004A56EF /* KadinDBappTests */,
+				72733E8024E9E381004A56EF /* KadinDBappUITests */,
+				72733E5A24E9E37F004A56EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72733E5A24E9E37F004A56EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72733E5924E9E37F004A56EF /* KadinDBapp.app */,
+				72733E7224E9E381004A56EF /* KadinDBappTests.xctest */,
+				72733E7D24E9E381004A56EF /* KadinDBappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72733E5B24E9E37F004A56EF /* KadinDBapp */ = {
+			isa = PBXGroup;
+			children = (
+				72733E5C24E9E37F004A56EF /* AppDelegate.swift */,
+				72733E5E24E9E37F004A56EF /* SceneDelegate.swift */,
+				72733E6024E9E37F004A56EF /* ViewController.swift */,
+				72733E6224E9E37F004A56EF /* Main.storyboard */,
+				72733E6824E9E381004A56EF /* Assets.xcassets */,
+				72733E6A24E9E381004A56EF /* LaunchScreen.storyboard */,
+				72733E6D24E9E381004A56EF /* Info.plist */,
+				72733E6524E9E37F004A56EF /* KadinDBapp.xcdatamodeld */,
+			);
+			path = KadinDBapp;
+			sourceTree = "<group>";
+		};
+		72733E7524E9E381004A56EF /* KadinDBappTests */ = {
+			isa = PBXGroup;
+			children = (
+				72733E7624E9E381004A56EF /* KadinDBappTests.swift */,
+				72733E7824E9E381004A56EF /* Info.plist */,
+			);
+			path = KadinDBappTests;
+			sourceTree = "<group>";
+		};
+		72733E8024E9E381004A56EF /* KadinDBappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72733E8124E9E381004A56EF /* KadinDBappUITests.swift */,
+				72733E8324E9E381004A56EF /* Info.plist */,
+			);
+			path = KadinDBappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72733E5824E9E37F004A56EF /* KadinDBapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72733E8624E9E381004A56EF /* Build configuration list for PBXNativeTarget "KadinDBapp" */;
+			buildPhases = (
+				72733E5524E9E37F004A56EF /* Sources */,
+				72733E5624E9E37F004A56EF /* Frameworks */,
+				72733E5724E9E37F004A56EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KadinDBapp;
+			productName = KadinDBapp;
+			productReference = 72733E5924E9E37F004A56EF /* KadinDBapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72733E7124E9E381004A56EF /* KadinDBappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72733E8924E9E381004A56EF /* Build configuration list for PBXNativeTarget "KadinDBappTests" */;
+			buildPhases = (
+				72733E6E24E9E381004A56EF /* Sources */,
+				72733E6F24E9E381004A56EF /* Frameworks */,
+				72733E7024E9E381004A56EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72733E7424E9E381004A56EF /* PBXTargetDependency */,
+			);
+			name = KadinDBappTests;
+			productName = KadinDBappTests;
+			productReference = 72733E7224E9E381004A56EF /* KadinDBappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72733E7C24E9E381004A56EF /* KadinDBappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72733E8C24E9E381004A56EF /* Build configuration list for PBXNativeTarget "KadinDBappUITests" */;
+			buildPhases = (
+				72733E7924E9E381004A56EF /* Sources */,
+				72733E7A24E9E381004A56EF /* Frameworks */,
+				72733E7B24E9E381004A56EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72733E7F24E9E381004A56EF /* PBXTargetDependency */,
+			);
+			name = KadinDBappUITests;
+			productName = KadinDBappUITests;
+			productReference = 72733E7D24E9E381004A56EF /* KadinDBappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72733E5124E9E37F004A56EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Kadin Redd";
+				TargetAttributes = {
+					72733E5824E9E37F004A56EF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					72733E7124E9E381004A56EF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 72733E5824E9E37F004A56EF;
+					};
+					72733E7C24E9E381004A56EF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 72733E5824E9E37F004A56EF;
+					};
+				};
+			};
+			buildConfigurationList = 72733E5424E9E37F004A56EF /* Build configuration list for PBXProject "KadinDBapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72733E5024E9E37F004A56EF;
+			productRefGroup = 72733E5A24E9E37F004A56EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72733E5824E9E37F004A56EF /* KadinDBapp */,
+				72733E7124E9E381004A56EF /* KadinDBappTests */,
+				72733E7C24E9E381004A56EF /* KadinDBappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72733E5724E9E37F004A56EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72733E6C24E9E381004A56EF /* LaunchScreen.storyboard in Resources */,
+				72733E6924E9E381004A56EF /* Assets.xcassets in Resources */,
+				72733E6424E9E37F004A56EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72733E7024E9E381004A56EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72733E7B24E9E381004A56EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72733E5524E9E37F004A56EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72733E6124E9E37F004A56EF /* ViewController.swift in Sources */,
+				72733E6724E9E37F004A56EF /* KadinDBapp.xcdatamodeld in Sources */,
+				72733E5D24E9E37F004A56EF /* AppDelegate.swift in Sources */,
+				72733E5F24E9E37F004A56EF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72733E6E24E9E381004A56EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72733E7724E9E381004A56EF /* KadinDBappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72733E7924E9E381004A56EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72733E8224E9E381004A56EF /* KadinDBappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72733E7424E9E381004A56EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72733E5824E9E37F004A56EF /* KadinDBapp */;
+			targetProxy = 72733E7324E9E381004A56EF /* PBXContainerItemProxy */;
+		};
+		72733E7F24E9E381004A56EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72733E5824E9E37F004A56EF /* KadinDBapp */;
+			targetProxy = 72733E7E24E9E381004A56EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72733E6224E9E37F004A56EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72733E6324E9E37F004A56EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72733E6A24E9E381004A56EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72733E6B24E9E381004A56EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72733E8424E9E381004A56EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72733E8524E9E381004A56EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72733E8724E9E381004A56EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KadinDBapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesysworks.KadinDBapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72733E8824E9E381004A56EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KadinDBapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesysworks.KadinDBapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72733E8A24E9E381004A56EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KadinDBappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesysworks.KadinDBappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KadinDBapp.app/KadinDBapp";
+			};
+			name = Debug;
+		};
+		72733E8B24E9E381004A56EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KadinDBappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesysworks.KadinDBappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KadinDBapp.app/KadinDBapp";
+			};
+			name = Release;
+		};
+		72733E8D24E9E381004A56EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KadinDBappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesysworks.KadinDBappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KadinDBapp;
+			};
+			name = Debug;
+		};
+		72733E8E24E9E381004A56EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KadinDBappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.genesysworks.KadinDBappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KadinDBapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72733E5424E9E37F004A56EF /* Build configuration list for PBXProject "KadinDBapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72733E8424E9E381004A56EF /* Debug */,
+				72733E8524E9E381004A56EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72733E8624E9E381004A56EF /* Build configuration list for PBXNativeTarget "KadinDBapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72733E8724E9E381004A56EF /* Debug */,
+				72733E8824E9E381004A56EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72733E8924E9E381004A56EF /* Build configuration list for PBXNativeTarget "KadinDBappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72733E8A24E9E381004A56EF /* Debug */,
+				72733E8B24E9E381004A56EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72733E8C24E9E381004A56EF /* Build configuration list for PBXNativeTarget "KadinDBappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72733E8D24E9E381004A56EF /* Debug */,
+				72733E8E24E9E381004A56EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72733E6524E9E37F004A56EF /* KadinDBapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				72733E6624E9E37F004A56EF /* KadinDBapp.xcdatamodel */,
+			);
+			currentVersion = 72733E6624E9E37F004A56EF /* KadinDBapp.xcdatamodel */;
+			path = KadinDBapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 72733E5124E9E37F004A56EF /* Project object */;
+}
